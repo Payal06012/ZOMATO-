@@ -1,0 +1,111 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display:flex;
+    margin :100px;
+    width: 80%;
+    margin: auto;
+}
+
+h1 , h2{
+
+    color: white;
+
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+h1{
+    padding-top: 100px;
+    font-family:Verdana;
+    font-size: 50px;
+}
+
+/* Navigation Bar */
+/* nav {
+    background-color: #ff645a;
+    color: white;
+    padding: 1rem 0;
+} */
+
+.logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Search Section */
+.search-section {
+   
+    background-image: url("food.avif");
+    text-align: center;
+    height: 450px;
+    padding: 2rem 0;
+    /* background-color: #f8f8f8; */
+}
+
+.search-section h1 {
+    margin-bottom: 1rem;
+}
+
+.search-section input {
+    width: 50%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Restaurant Listings */
+.restaurant-listings {
+    padding: 2rem 0;
+}
+
+.restaurant-card {
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1rem;
+}
+
+.restaurant-card img {
+    width: 250px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+.restaurant-info h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
